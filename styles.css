@@ -1,0 +1,169 @@
+body {
+  background-color: #EAF6F6;
+  color: #3282b8;
+  margin: 0;
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+  font-weight: lighter;
+  font-size: 1.3rem;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Pacifico', cursive;
+  font-size: 6.25rem; 
+  font-weight: lighter; 
+  color: #0f4c75;
+  line-height: 2;  
+}
+
+h2 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 4rem;
+  font-weight: lighter;
+  color: #1b262c;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Fredoka One', cursive;
+  color: #1b262c;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+a {
+  color: #1b262c;
+  font-family: 'Fredoka One', cursive;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border: dotted #3282b8 10px;    
+  border-bottom: none;
+  width: 10%;
+  margin: 100px auto;
+}
+
+.skill-row {
+  margin: 100px auto 100px;   
+  width: 50%;
+  text-align: left;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.attr {
+  font-size: x-small;
+}
+
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.typing, .web, .person {
+  width: 25%;
+}
+
+.web {
+  float: left;
+  margin-right: 30px;
+}
+
+.typing {
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  color: #3282b8;
+  font-size: 0.74rem;
+  padding: 20px 0;
+}
+
+.bottom-container {
+    background-color: #bbe1fa;
+    padding: 50px 0 20px;
+  }
+
+.middle-container {
+  margin: 100px 0;
+  }
+
+.tagline {
+  font-weight: normal;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 40px;
+  right: 300px;
+  width: 200px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 200px;
+  left: 250px;
+  width: 200px;
+}
+
+.btn {
+   background: #1b262c;
+   background-image: -webkit-linear-gradient(top, #66BFBF, #488585);
+   background-image: -moz-linear-gradient(top, #66BFBF, #488585);
+   background-image: -ms-linear-gradient(top, #66BFBF, #488585);
+   background-image: -o-linear-gradient(top, #66BFBF, #488585);
+   background-image: -webkit-gradient(linear, left top, left bottom, from(#66BFBF), to(#488585));
+   background-image: linear-gradient(to bottom, #66BFBF, #488585);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: 'Fredoka One', cursive;
+   font-size: 16px;
+   padding: 7px;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 0px;
+   background: #8AF9F9;
+   background-image: -webkit-linear-gradient(top, #8AF9F9, #64B4B4);
+   background-image: -moz-linear-gradient(top, #8AF9F9, #64B4B4);
+   background-image: -ms-linear-gradient(top, #8AF9F9, #64B4B4);
+   background-image: -o-linear-gradient(top, #8AF9F9, #64B4B4);
+   background-image: -webkit-gradient(linear, left top, left bottom, from(#8AF9F9), to(#64B4B4));
+   background-image: linear-gradient(to bottom, #8AF9F9, #64B4B4);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
+
+.footer-link {
+    color: #3282b8;
+}
